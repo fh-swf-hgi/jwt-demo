@@ -1,3 +1,5 @@
+[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/fh-swf-hgi/jwt-demo)
+
 # JSON Web Token (JWT) Demo
 
 ## JWT mit Python erzeugen
@@ -49,3 +51,6 @@ jwt.decode(token, public_key, algorithms=['RS256'])
 
 Auf [jwt.io](https://jwt.io/) findet man ein kleines Web-Tool mit dem binäre JWT Tokens generiert und verifiziert werden können.
 ![ajwt.io](https://github.com/fh-swf-hgi/jwt-demo/raw/master/jwt_io.png)
+
+
+[1] https://blog.miguelgrinberg.com/post/json-web-tokens-with-public-key-signatures
